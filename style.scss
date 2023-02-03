@@ -13,7 +13,7 @@
 }
 body {
   background-color: $background;
-  overflow-x: hidden;
+  overflow-x: hidden; /* bu yatay scroll engeller */
 }
 
 header {
@@ -96,7 +96,7 @@ header {
   }
   img {
     max-width: 200px;
-    mix-blend-mode: darken;
+    mix-blend-mode: darken; /* bu png resminin beyaz arkaplanını değiştiriyor. */
   }
   h2 {
     @extend .baslik;

@@ -1,6 +1,6 @@
 .baslik {
     font-family: $font-second;
-    white-space: nowrap;
+    white-space: nowrap; /* sayfa küçülünce yazı aşağı geçmiyor */
     letter-spacing: 3px;
   }
   
